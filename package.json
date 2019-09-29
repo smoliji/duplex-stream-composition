@@ -1,0 +1,25 @@
+{
+  "name": "webfile-stream-to-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "author": "smolikjirka@gmail.com",
+  "license": "WTFPL",
+  "devDependencies": {
+    "@types/pumpify": "^1.4.1",
+    "@types/through2": "^2.0.34",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "pumpify": "^2.0.0",
+    "through2": "^3.0.1"
+  }
+}
